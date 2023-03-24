@@ -1,4 +1,6 @@
 :root {
+	--palette-nasa-red : rgb(195,23,41);
+
 	--palette-red-darker: #3f1818;
 	--palette-gray: #838383;
 	--palette-gray-light: #bdbdbd;
@@ -6,9 +8,7 @@
 
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-		sans-serif;
+	font-family: "Helvetica Light" ,"Helvetica", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
@@ -29,9 +29,10 @@ th {
 }
 
 td {
-	border: 1px solid black;
+	border: 1px solid gray;
 	height: 30px;
 	text-align: end;
+	background-color: black;
 }
 
 @media (min-width: 500px) {
@@ -40,7 +41,6 @@ td {
 	}
 
 	td {
-		border: 1px solid black;
 		height: 50px;
 	}
 }

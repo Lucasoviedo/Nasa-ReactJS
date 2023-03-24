@@ -1,8 +1,12 @@
 .header-container{
-    box-shadow: -1px -1px 25px var(--palette-red-darker);
-    background-color: var(--palette-red-darker);
+    box-shadow: -1px -1px 25px black;
+    background-color: var(--palette-nasa-red);
     color: var(--palette-gray-light);
     padding: 30px 20px;
     width: 100%;
     margin-bottom: 25px;
+}
+
+.header-logo{
+    width: 200px;
 }
