@@ -47,7 +47,7 @@ const Calendar = () => {
 		}
 		
 		setLoading(false)
-	  }
+	}
 
 	useEffect(() => {
 		defineCalendar();

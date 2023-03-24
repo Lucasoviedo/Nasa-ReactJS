@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import NasaNegroLogo from '../../assets/logos/nasa-negro-logo.svg'
 
 export const Header = () => {
 
@@ -7,7 +8,7 @@ export const Header = () => {
         <div className='header-container'>
             <a className='footer-link' href='https://github.com/Lucasoviedo/Portfolio/' 
             target='_blank' rel="noreferrer">
-                <h3>NASA</h3>
+                <img src={NasaNegroLogo} className='header-logo'/>
             </a>
         </div>
     )
