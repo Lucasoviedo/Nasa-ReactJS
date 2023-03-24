@@ -1,0 +1,42 @@
+.modal-complete{
+    position: absolute;
+}
+
+.modal-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.modal-card{
+    background-color: gray;
+    border: 5px solid black;
+}
+
+.modal-close-button{
+    width: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: gray;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.modal-container{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

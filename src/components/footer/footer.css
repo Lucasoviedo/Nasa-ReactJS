@@ -1,24 +1,31 @@
-.footer-container{
-    box-shadow: -1px -1px 25px var(--palette-red-darker);
-    background-color: var(--palette-red-darker);
-    color: var(--palette-gray-light);
-    padding: 30px 20px;
-    width: 100%;
-    margin-top: 25px;
+.footer-container {
+	box-shadow: -1px -1px 25px var(--palette-red-darker);
+	background-color: var(--palette-red-darker);
+	color: var(--palette-gray-light);
+	padding: 30px 20px;
+	width: 100%;
+	margin-top: 25px;
 }
 
-.footer-git-logo{
-    width: 25px;
-    background-color: var(--palette-gray-light);
-    padding: 5px;
-    border-radius: 50%;
+.footer-git-logo {
+	width: 25px;
+	background-color: var(--palette-gray-light);
+	padding: 5px;
+	border-radius: 50%;
 }
 
-.footer-link{
-    text-decoration: none;
-    color: var(--palette-interface-black);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.footer-link {
+	text-decoration: none;
+	color: var(--palette-interface-black);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+@media (min-height: 800px) {
+	.footer-container {
+		position: absolute;
+		bottom: 0;
+	}
 }
