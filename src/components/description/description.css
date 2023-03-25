@@ -1,0 +1,61 @@
+.description-button{
+    color: white;
+    background-color: var(--palette-nasa-red);
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 0 0 3px black;
+
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12.5%;
+}
+
+.description-comments-author{
+    margin: 0;
+}
+
+.description-comments-container{
+    padding: 5px;
+    width: 100%;
+}
+
+.description-comments-description{
+    margin: 0;
+}
+
+.description-copyrigth{
+
+}
+
+.description-description{
+
+}
+
+.description-input-author,
+.description-input-description,
+.description-button{
+    width: 100%;
+    padding: 5px;
+    
+}
+
+.description-inputs-container{
+    align-items: center;
+}
+
+.description-image{
+    width: 75%;
+    margin-right: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+}
+
+.description-title{
+}
