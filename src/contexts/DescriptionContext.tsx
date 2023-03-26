@@ -10,7 +10,7 @@ const DescriptionProvider = ({ children }) => {
     const handleDescriptionChange = (data) => {
         setDescriptionData(data)
     }
-    const data = { descriptionData, handleDescriptionChange };
+    const data = { descriptionData, setDescriptionData, handleDescriptionChange };
 
     return <DescriptionContext.Provider value={data}>{children}</DescriptionContext.Provider>;
 };

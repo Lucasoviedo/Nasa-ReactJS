@@ -6,12 +6,18 @@ const CalendarItem = ({num, data}) => {
 
     const handleOpeningModal = () => {
         handleDescriptionChange(data)
+        // window.scroll
+        window.scrollTo({
+            top: 550,
+            left: 0,
+            behavior: 'smooth'
+        });
     }
 
     return (
         <>
             <td>
-                <img src={data?.url} className='calendar-item-background-image' alt={num}
+                <img style={{backgroundImage: data.url}} src={data?.url} className='calendar-item-background-image' alt={num}
                     onClick={handleOpeningModal}
                 />
                 <span className='calendar-item-background-num'>{num}</span>
