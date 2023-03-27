@@ -35,7 +35,7 @@ td {
 	background-color: black;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 744px) {
 	th {
 		font-size: 12pt;
 	}

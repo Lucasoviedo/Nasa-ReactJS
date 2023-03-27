@@ -11,7 +11,7 @@ export const Footer = () => {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<h3>Created and designed by Lucas Oviedo</h3>
+				<h4>Created and designed by Lucas Oviedo</h4>
 				<img src={logoGitHub} alt="imagen gitHub" className="footer-git-logo" />
 			</a>
 		</div>
